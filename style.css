@@ -303,9 +303,6 @@ hr{
         display: none;
     }
 
-    .submenu:hover #carrito{
-        min-width: 100%;
-    }
 
     .header{
         min-height: 0vh;
@@ -322,4 +319,24 @@ hr{
     .products{
         padding: 30px;
     }
+
+    .products-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services{
+        padding: 30px;
+        margin: 0;
+    }
+
+    .services-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
 }
